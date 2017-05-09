@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editable_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Item"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/typeEditText"
+        android:layout_alignStart="@+id/typeEditText"
+        android:layout_alignRight="@+id/typeEditText"
+        android:layout_alignEnd="@+id/typeEditText" />
+    <EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editable_item"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/typeEditText"
+        android:layout_alignStart="@+id/typeEditText"
+        android:layout_below="@+id/typeEditText"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/expiryEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Expiry"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/quantityEditText"
+        android:layout_alignLeft="@+id/quantityEditText"
+        android:layout_alignStart="@+id/quantityEditText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_below="@+id/editable_item"
+        android:layout_centerHorizontal="true">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expiryEditText"
+        android:layout_marginTop="134dp"
+        android:layout_toEndOf="@+id/expiryEditText"
+        android:layout_toRightOf="@+id/expiryEditText"
+        android:text="View Data" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnView"
+        android:layout_alignBottom="@+id/btnView"
+        android:layout_toLeftOf="@+id/btnView"
+        android:layout_toStartOf="@+id/btnView"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSave"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_toLeftOf="@+id/btnSave"
+        android:layout_toStartOf="@+id/btnSave"
+        android:text="DELETE" />
+
+</RelativeLayout>

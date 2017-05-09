@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/meat.jpg",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/meat.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/background.jpg",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/background.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/fruits.png",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/fruits.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/dairy.jpg",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/dairy.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/vegetables.png",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/vegetables.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/empty.png",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/empty.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/meat.jpg",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/meat.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/vegetables.png",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/vegetables.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/background.jpg",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/background.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/meat.jpg",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/meat.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/dairy.jpg",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/dairy.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/fruits.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/fruits.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/spices_condiments.jpg",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/spices_condiments.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/fruits.png",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/fruits.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/vegetables.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/vegetables.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/poultry.jpg",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/poultry.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/spices_condiments.jpg",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/spices_condiments.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/spices_condiments.jpg",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/spices_condiments.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/dairy.jpg",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/dairy.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/instagramlogo.png",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/instagramlogo.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/empty.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/res/drawable/empty.png"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/poultry.jpg",
+        "source": "/Users/akshay/Desktop/Instagram/ParseStarterProject/src/main/res/drawable/poultry.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/background.jpg",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/background.jpg"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/build/intermediates/res/merged/debug/drawable/poultry.jpg",
+        "source": "/Users/akshay/Desktop/Pantry2Pan/ParseStarterProject/src/main/res/drawable/poultry.jpg"
+    }
+]

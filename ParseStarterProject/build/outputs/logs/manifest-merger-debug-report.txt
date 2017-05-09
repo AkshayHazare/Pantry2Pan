@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:9:1-44:12
+	package
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
+	android:versionCode
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
+application
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:16:5-42:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/akshay/.android/build-cache/5acd16cba3396b6636d81be52d8754fe8f978d93/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/akshay/.android/build-cache/6061cec07bcb3f3d28e9b63e2435f08d402e186a/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/akshay/.android/build-cache/01dfdd1ef69eb5b7b641a08bed3fe6b55215e6ce/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/akshay/.android/build-cache/b06ad7158f4bacafc653ca41bfa10b1834549e55/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+	android:theme
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:17:9-43
+activity#com.parse.starter.MainActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:23:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:28:27-74
+activity#com.parse.starter.UserHomeActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:31:9-54
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:31:19-51
+activity#com.parse.starter.UserPantryActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:32:9-34:62
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:34:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:33:13-47
+activity#com.parse.starter.UserRecipeActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:35:9-37:62
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:37:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:36:13-47
+activity#com.parse.starter.UserChosenRecipeActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:38:9-62
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:38:19-59
+activity#com.parse.starter.UserAdd2PantryActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:39:9-69
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:39:19-57
+activity#com.parse.starter.ListDataActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:40:9-63
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:40:19-51
+activity#com.parse.starter.EditDataActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:41:9-63
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml:41:19-51
+uses-sdk
+INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/akshay/.android/build-cache/5acd16cba3396b6636d81be52d8754fe8f978d93/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/akshay/.android/build-cache/6061cec07bcb3f3d28e9b63e2435f08d402e186a/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/akshay/.android/build-cache/01dfdd1ef69eb5b7b641a08bed3fe6b55215e6ce/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/akshay/.android/build-cache/b06ad7158f4bacafc653ca41bfa10b1834549e55/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/akshay/.android/build-cache/7b839a4f8f1bb690012caa6d92e6bf67a369dd6a/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/src/main/AndroidManifest.xml

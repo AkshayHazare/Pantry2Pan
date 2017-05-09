@@ -1,0 +1,7 @@
+#Tue May 09 04:19:41 EDT 2017
+base.0=/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_159fd7df3174229c48ec951f10a1f605501e8e4d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4dedd42ebbe431384b76d2b4d97dec045955c754/classes.dex
+base.1=/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4dedd42ebbe431384b76d2b4d97dec045955c754
+file.0=/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_159fd7df3174229c48ec951f10a1f605501e8e4d/classes.dex

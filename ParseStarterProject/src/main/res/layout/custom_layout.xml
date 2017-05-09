@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TextView"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/typeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/nameView"
+        android:layout_alignLeft="@+id/nameView"
+        android:layout_alignStart="@+id/nameView"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/quantityView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/nameView"
+        android:layout_alignBottom="@+id/nameView"
+        android:layout_alignLeft="@+id/expiryView"
+        android:layout_alignStart="@+id/expiryView" />
+
+    <TextView
+        android:id="@+id/expiryView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_alignBaseline="@+id/typeView"
+        android:layout_alignBottom="@+id/typeView"
+        android:layout_toRightOf="@+id/typeView"
+        android:layout_toEndOf="@+id/typeView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/nameView"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_toLeftOf="@+id/nameView"
+        android:layout_toStartOf="@+id/nameView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+</RelativeLayout>

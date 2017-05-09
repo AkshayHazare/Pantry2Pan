@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4dedd42ebbe431384b76d2b4d97dec045955c754/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1bc99836e4b30e0591542824d3469a7625d3840d">
+        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_159fd7df3174229c48ec951f10a1f605501e8e4d/classes.dex" />
+    </item>
+
+</items>
