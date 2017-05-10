@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:13:1-88:12
+	package
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:14:5-30
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:13:11-69
+	android:versionCode
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:18:22-73
+application
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:20:5-59:19
+MERGED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:19:5-48:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /Users/akshay/.android/build-cache/83f40965ce7e78de97e84083aa3f1fb6a531bdc5/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /Users/akshay/.android/build-cache/0ada9d2b3540c7080311e129a8ef70734a77cf51/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akshay/.android/build-cache/dbe00bf2a526d9921b6b1952addba19a6845bc0c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akshay/.android/build-cache/8788d961ce9dc6b46baba1c37f4fc930c82f1678/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akshay/.android/build-cache/e552fe9dc05376eff6d85001fb36b76eccce336c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akshay/.android/build-cache/3629e73d842c6d03c3005730b4274c18b5486a8b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akshay/.android/build-cache/cb76161ada75d3e6687fd7642eaf69a7423ed3ce/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akshay/.android/build-cache/51584d6e6e4a623de9ca1856a9f4c60beead7959/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/akshay/.android/build-cache/b06ad7158f4bacafc653ca41bfa10b1834549e55/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:24:9-41
+	android:supportsRtl
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:22:9-35
+	android:allowBackup
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:23:9-43
+	android:theme
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:21:9-36
+activity#com.mysampleapp.SplashActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:26:9-35:20
+	android:label
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:29:13-45
+	android:configChanges
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:27:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.mysampleapp.UserHomeActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:37:9-54
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:37:19-51
+activity#com.mysampleapp.UserPantryActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:39:9-41:62
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:41:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:40:13-47
+activity#com.mysampleapp.UserRecipeActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:43:9-45:62
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:45:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:44:13-47
+activity#com.mysampleapp.UserChosenRecipeActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:47:9-48:64
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:48:13-62
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:47:19-59
+activity#com.mysampleapp.UserAdd2PantryActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:50:9-51:62
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:51:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:50:19-57
+activity#com.mysampleapp.ListDataActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:54:9-55:61
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:54:19-51
+activity#com.mysampleapp.EditDataActivity
+ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:57:9-58:61
+	android:parentActivityName
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:58:13-59
+	android:name
+		ADDED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml:57:19-51
+uses-sdk
+INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:15:5-17:41
+MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /Users/akshay/.android/build-cache/83f40965ce7e78de97e84083aa3f1fb6a531bdc5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /Users/akshay/.android/build-cache/0ada9d2b3540c7080311e129a8ef70734a77cf51/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akshay/.android/build-cache/dbe00bf2a526d9921b6b1952addba19a6845bc0c/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akshay/.android/build-cache/8788d961ce9dc6b46baba1c37f4fc930c82f1678/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akshay/.android/build-cache/e552fe9dc05376eff6d85001fb36b76eccce336c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akshay/.android/build-cache/3629e73d842c6d03c3005730b4274c18b5486a8b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akshay/.android/build-cache/cb76161ada75d3e6687fd7642eaf69a7423ed3ce/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akshay/.android/build-cache/51584d6e6e4a623de9ca1856a9f4c60beead7959/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] /Users/akshay/.android/build-cache/898c315895c62343f2d16c02b96e61d4cd6b1ec5/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/akshay/.android/build-cache/b06ad7158f4bacafc653ca41bfa10b1834549e55/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] /Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/AndroidManifest.xml
+activity#com.amazonaws.mobilehelper.auth.signin.SignInActivity
+ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:23:9-27:20
+	android:label
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:26:13-59
+	android:configChanges
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:25:13-83
+	android:name
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:24:13-81
+activity#com.amazonaws.mobilehelper.auth.signin.userpools.ForgotPasswordActivity
+ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:28:9-32:20
+	android:label
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:31:13-67
+	android:configChanges
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:30:13-83
+	android:name
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:29:13-99
+activity#com.amazonaws.mobilehelper.auth.signin.userpools.SignUpActivity
+ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:33:9-37:20
+	android:label
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:36:13-59
+	android:configChanges
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:35:13-83
+	android:name
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:34:13-91
+activity#com.amazonaws.mobilehelper.auth.signin.userpools.MFAActivity
+ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:38:9-42:20
+	android:label
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:41:13-55
+	android:configChanges
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:40:13-83
+	android:name
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:39:13-88
+activity#com.amazonaws.mobilehelper.auth.signin.userpools.SignUpConfirmActivity
+ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:43:9-47:20
+	android:label
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:46:13-67
+	android:configChanges
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:45:13-83
+	android:name
+		ADDED from [Pantry2Pan:AWSMobileHelper:unspecified] /Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/AndroidManifest.xml:44:13-98

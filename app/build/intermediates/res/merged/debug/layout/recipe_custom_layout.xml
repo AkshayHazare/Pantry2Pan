@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/ingredientsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cooktimeView"
+        android:layout_alignStart="@+id/cooktimeView"
+        android:layout_below="@+id/cooktimeView"
+        android:layout_marginTop="19dp"
+        android:text="Ingredients" />
+
+    <TextView
+        android:id="@+id/cuisineView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameView"
+        android:layout_alignBottom="@+id/nameView"
+        android:layout_toEndOf="@+id/cooktimeView"
+        android:layout_toRightOf="@+id/cooktimeView"
+        android:text="Cuisine" />
+
+    <TextView
+        android:id="@+id/cooktimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cook Time"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_below="@+id/recipeimageView"
+        android:layout_toRightOf="@+id/nameView"
+        android:layout_toEndOf="@+id/nameView" />
+
+    <ImageView
+        android:id="@+id/recipeimageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/nameView"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+</RelativeLayout>

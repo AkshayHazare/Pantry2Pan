@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4dedd42ebbe431384b76d2b4d97dec045955c754/classes.dex" />
+        revision="25.0.2"
+        sha1="a524e2aafd8cb2e73ee40f99cb82da6a8009fb1e">
+        <dex dex="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7897be3b43d74a7934a99a292f9a4755c775605d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="1bc99836e4b30e0591542824d3469a7625d3840d">
-        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_159fd7df3174229c48ec951f10a1f605501e8e4d/classes.dex" />
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5bfec92825d0f0843aba34ab4a517311ae46fb87/classes.dex" />
     </item>
 
 </items>

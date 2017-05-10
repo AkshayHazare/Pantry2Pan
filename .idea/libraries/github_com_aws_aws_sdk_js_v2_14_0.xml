@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="github-com-aws-aws-sdk-js-v2.14.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bower/github-com-aws-aws-sdk-js/v2.14.0/86d32b53d3fa3acbab21c5bdc5cbc59832dbfd1d/github-com-aws-aws-sdk-js-v2.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bower/github-com-aws-aws-sdk-js/v2.14.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/github-com-aws-aws-sdk-js-v2.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
