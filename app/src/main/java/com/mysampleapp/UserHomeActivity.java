@@ -10,11 +10,18 @@ import android.widget.Button;
 import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobilehelper.auth.IdentityManager;
 
+import java.util.ArrayList;
 
-public class UserHomeActivity extends AppCompatActivity implements View.OnClickListener{
+
+public class UserHomeActivity extends AppCompatActivity implements View.OnClickListener {
+    RecipeHelper recipehelper;
+    DatabaseHelper mDatabaseHelper;
+    ArrayList <Recipe> recipeData;
+    ArrayList <Data> listData ;
     private static final String TAG = "HomeActivity";
     final AWSMobileClient awsMobileClient = AWSMobileClient.defaultMobileClient();
-    private IdentityManager identityManager=awsMobileClient.getIdentityManager();
+    private IdentityManager identityManager = awsMobileClient.getIdentityManager();
+    String json;
 
     public void showUserPantry() {
 
@@ -30,13 +37,13 @@ public class UserHomeActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onClick(View view) {
-        if(view.getId() == R.id.recipeButton){
+        if (view.getId() == R.id.recipeButton) {
             showUserRecipe();
         }
-        if(view.getId() == R.id.pantryButton){
+        if (view.getId() == R.id.pantryButton) {
             showUserPantry();
         }
-        if(view.getId() == R.id.logoutbutton){
+        if (view.getId() == R.id.logoutbutton) {
 
             identityManager.signOut();
             identityManager.signInOrSignUp(this, new SignInHandler());
@@ -60,9 +67,13 @@ public class UserHomeActivity extends AppCompatActivity implements View.OnClickL
 
         Button logOutButton = (Button) findViewById(R.id.logoutbutton);
         logOutButton.setOnClickListener(this);
-        Log.d(TAG,"logoutbutton was clicked");
+        Log.d(TAG, "logoutbutton was clicked");
 
     }
 
 
+
+
 }
+
+

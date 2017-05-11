@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a524e2aafd8cb2e73ee40f99cb82da6a8009fb1e">
-        <dex dex="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7897be3b43d74a7934a99a292f9a4755c775605d/classes.dex" />
+        sha1="31d0639f7b25feccaba996c7b4c16834d2897858">
+        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e014d5916b4bf3f75655a3e3d267f44deca57f7a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/akshay/Desktop/PantryToPan_2-aws-my-sample-app-android/MySampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5bfec92825d0f0843aba34ab4a517311ae46fb87/classes.dex" />
+        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4d2394ab13aa3f80615a0f0adb7e16f0b54ee0f5/classes.dex" />
     </item>
 
 </items>

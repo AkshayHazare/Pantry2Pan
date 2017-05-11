@@ -24,7 +24,7 @@ public class ListDataActivity extends AppCompatActivity {
     int[] IMAGES = {R.drawable.meat,R.drawable.fruits,R.drawable.dairy,R.drawable.vegetables,R.drawable.poultry,R.drawable.spices_condiments,R.drawable.empty};
 
     private static final String TAG = "ListDataActivity";
-    ArrayList<Data> listData = new ArrayList<>();
+    public ArrayList<Data> listData;
     DatabaseHelper mDatabaseHelper;
     private ListView mListView;
     private Button addButton;
