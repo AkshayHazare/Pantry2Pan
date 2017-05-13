@@ -3,7 +3,6 @@ package com.mysampleapp;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
@@ -16,11 +15,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.util.ArrayList;
 
 
@@ -37,7 +34,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
     ImageView image;
 
     @Override
-    protected void onCreate( Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_recipe);
@@ -52,7 +49,6 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
         listData = mdatabaseHelper.getData();
 
         recipeData = recipeHelper.getRecipe(listData);
-
 
         //create the list adapter and set the adapter
         CustomAdapter customadapter = new CustomAdapter();
@@ -71,15 +67,15 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                 String name = recipeData.get(i).getName();
                 String ingredients = recipeData.get(i).getIngredients();
                 String cookTime = "";
-                int time= new Integer(recipeData.get(i).getCook_time());
-                if (time <= 0 ) {
+                int time = new Integer(recipeData.get(i).getCook_time());
+                if (time <= 0) {
                     cookTime = ("Not specified");
                 } else {
                     int temp_time = time;
-                    int hours = temp_time/3600;
-                    temp_time -= hours*3600;
-                    int mins = temp_time/60;
-                    temp_time -= mins*60;
+                    int hours = temp_time / 3600;
+                    temp_time -= hours * 3600;
+                    int mins = temp_time / 60;
+                    temp_time -= mins * 60;
                     int secs = temp_time;
                     String hourString = "" + hours;
                     String minString = "" + mins;
@@ -91,7 +87,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                         cookTime = (cookTime + " " + minString + " minutes");
                     }
                     if (secs != 0) {
-                        cookTime = (cookTime  + " " + secString + " seconds");
+                        cookTime = (cookTime + " " + secString + " seconds");
                     }
                 }
 
@@ -107,7 +103,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                 editScreenIntent.putExtra("ingredients", ingredients);
                 editScreenIntent.putExtra("cookTime", cookTime);
                 editScreenIntent.putExtra("sourceURL", sourceURL);
-                editScreenIntent.putExtra("smallImageUrls",image);
+                editScreenIntent.putExtra("smallImageUrls", image);
                 editScreenIntent.putExtra("cuisine", cuisine);
 
                 startActivity(editScreenIntent);
@@ -116,8 +112,8 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
         });
 
 
-
     }
+
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.backbuttonrecipe) {
@@ -127,6 +123,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
     }
 
     private class CustomAdapter extends BaseAdapter {
+
 
         @Override
         public int getCount() {
@@ -147,28 +144,23 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
         public View getView(int i, View view, ViewGroup viewGroup) {
             view = getLayoutInflater().inflate(R.layout.recipe_custom_layout, null);
 
-            image = (ImageView) view.findViewById(R.id.imageView);
+            ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
             TextView nameView = (TextView) view.findViewById(R.id.nameView);
             TextView cooktimeView = (TextView) view.findViewById(R.id.cooktimeView);
-            Bitmap bitmap=recipeData.get(i).getImage();
-            try
-            {
-                Log.i("Image",recipeData.get(i).getImage().toString());
+
+            try {
 
                 nameView.setText(recipeData.get(i).getName());
-
                 cooktimeView.setText("");
-
-                int time=new Integer(recipeData.get(i).getCook_time());
-
-                if (time <= 0 ) {
+                int time = new Integer(recipeData.get(i).getCook_time());
+                if (time <= 0) {
                     cooktimeView.setText(cooktimeView.getText() + "Not specified");
                 } else {
                     int temp_time = time;
-                    int hours = temp_time/3600;
-                    temp_time -= hours*3600;
-                    int mins = temp_time/60;
-                    temp_time -= mins*60;
+                    int hours = temp_time / 3600;
+                    temp_time -= hours * 3600;
+                    int mins = temp_time / 60;
+                    temp_time -= mins * 60;
                     int secs = temp_time;
                     String hourString = "" + hours;
                     String minString = "" + mins;
@@ -183,49 +175,61 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                         cooktimeView.setText(cooktimeView.getText() + " " + secString + " seconds");
                     }
                 }
-
-
+                imageView.setImageBitmap(getBitmap(recipeData.get(i).getImageURL()));
             }
-            catch (Exception e){};
+            catch (Exception e){}
             return view;
         }
     }
-    private void toastMessage(String message) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    public Bitmap getBitmap(String url) throws IOException {
+        String img = parseImage(url);
+
+        InputStream input = new java.net.URL(img).openStream();
+        Bitmap bitmap = BitmapFactory.decodeStream(input);
+        Log.i("URL is ", String.valueOf(bitmap));
+        return (bitmap);
     }
 
-    private class GetImage extends AsyncTask<String, Void, Bitmap> {
 
-        @Override
-        protected Bitmap doInBackground(String... strings) {
-            Bitmap bitmap=null;
-            String imageURL = strings[0];
+    private String parseImage(String imageString) {
 
-            Log.i("imgURL: ", imageURL);
+        String stringFragment = "";
+        for (int i = 0; i < imageString.length(); ++i) {
+            if (imageString.charAt(i) == '\"' || imageString.charAt(i) == '[') {
+                continue;
+            }
+            else if (imageString.charAt(i) == ','
+                    || imageString.charAt(i) == ']') {
+                break;
+            }
+            else {
+                stringFragment = stringFragment + imageString.charAt(i);
+            }
+        }
+        String finalFragment = "";
+        int count = 0;
+        boolean shouldRemove = true;
+        for (int i = 0; i < stringFragment.length(); ++i) {
 
-            try{
-
-                InputStream input = new java.net.URL(imageURL).openStream();
-
-                bitmap = BitmapFactory.decodeStream(input);
-
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (count == 2) {
+                shouldRemove = false;
             }
 
+            if (stringFragment.charAt(i) == 's' && shouldRemove) {
+                continue;
+            }
 
-            return bitmap;
+            if (stringFragment.charAt(i) == '\\') {
+                continue;
+            }
+
+            if (stringFragment.charAt(i) == '/') {
+                count++;
+            }
+
+            finalFragment = finalFragment + stringFragment.charAt(i);
         }
 
-        @Override
-        protected void onPostExecute(Bitmap result){
-            image.setImageBitmap(result);
-
-        }
+        return finalFragment;
     }
-
-
 }
-

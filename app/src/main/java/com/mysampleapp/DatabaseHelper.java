@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String TAG = "DatabaseHelper";
-    private static final String TABLE_NAME = "Test10";
+    private static final String TABLE_NAME = "pantry_table";
     private static final String COL0 = "ID";
     private static final String COL1 = "name";
     private static final String COL2 = "type";
@@ -156,7 +156,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String data = String.valueOf(db.rawQuery(query, null));
         return data;
     }
-
 
 
 }

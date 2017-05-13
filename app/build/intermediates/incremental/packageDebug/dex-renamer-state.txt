@@ -1,7 +1,7 @@
-#Fri May 12 23:20:55 EDT 2017
+#Sat May 13 16:22:37 EDT 2017
 base.0=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4d2394ab13aa3f80615a0f0adb7e16f0b54ee0f5
-renamed.1=classes2.dex
-renamed.0=classes.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
 file.1=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e014d5916b4bf3f75655a3e3d267f44deca57f7a/classes.dex
 base.1=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e014d5916b4bf3f75655a3e3d267f44deca57f7a
 file.0=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4d2394ab13aa3f80615a0f0adb7e16f0b54ee0f5/classes.dex

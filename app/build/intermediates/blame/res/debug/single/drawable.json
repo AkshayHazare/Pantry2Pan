@@ -16,6 +16,10 @@
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/fish.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/fish.png"
+    },
+    {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/grains.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/grains.png"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
@@ -106,6 +114,10 @@
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/milk.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/milk.png"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",

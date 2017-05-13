@@ -84,6 +84,7 @@ public class EditDataActivity extends AppCompatActivity {
                 }else{
                     toastMessage("You must enter an Expiry");
                 }
+                toastMessage("Item Updated");
             }
         });
 

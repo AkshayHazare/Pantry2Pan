@@ -53,6 +53,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.code.gson:gson:2.7'
     compile 'org.webjars.bower:github-com-aws-aws-sdk-js:v2.14.0'
+    compile 'joda-time:joda-time:2.9.4'
 }
 
 repositories {

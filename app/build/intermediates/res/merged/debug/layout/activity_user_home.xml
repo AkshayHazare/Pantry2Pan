@@ -48,4 +48,20 @@
         android:textColor="@android:color/white"
         android:textStyle="bold"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Pantry To Pan"
+        android:textColor="@android:color/white"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_marginTop="128dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/recipeButton"
+        android:layout_alignEnd="@+id/recipeButton" />
+
 </RelativeLayout>

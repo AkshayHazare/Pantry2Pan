@@ -1,12 +1,8 @@
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/signupLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="@dimen/user_pools_activity_horizontal_margin"
-    android:layout_marginRight="@dimen/user_pools_activity_horizontal_margin"
-    android:layout_marginTop="@dimen/user_pools_activity_vertical_margin"
 
     android:background="@android:color/holo_orange_light"
     tools:context="com.amazonaws.mobilehelper.auth.signin.userpools.SignUpConfirmActivity">
@@ -15,10 +11,11 @@
         android:id="@+id/confirm_account_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:text="@string/sign_up_confirm_title"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignBottom="@+id/confirm_account_space2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Space
         android:id="@+id/confirm_account_space1"
@@ -31,28 +28,32 @@
         android:id="@+id/confirm_account_message1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/confirm_account_space1"
-        android:layout_centerHorizontal="true"
         android:text="@string/sign_up_confirm_code_sent"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/confirm_account_space1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Space
         android:id="@+id/confirm_account_space2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/user_pools_activity_intra_group_separation"
-        android:layout_below="@id/confirm_account_message1"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/confirm_account_username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/confirm_account_message2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/confirm_account_space2"
-        android:layout_centerHorizontal="true"
         android:text="@string/sign_up_confirm_enter_code"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/confirm_account_message1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Space
         android:id="@+id/confirm_account_space3"
@@ -63,12 +64,13 @@
 
     <EditText
         android:id="@+id/confirm_account_username"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="@dimen/user_pools_activity_text_height"
-        android:layout_below="@id/confirm_account_space3"
-        android:layout_centerHorizontal="true"
         android:hint="@string/username_text"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:layout_above="@+id/confirm_account_confirmation_code"
+        android:layout_alignLeft="@+id/confirm_account_confirmation_code"
+        android:layout_alignStart="@+id/confirm_account_confirmation_code" />
 
     <Space
         android:id="@+id/confirm_account_space4"
@@ -78,12 +80,13 @@
 
     <EditText
         android:id="@+id/confirm_account_confirmation_code"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="@dimen/user_pools_activity_text_height"
-        android:layout_below="@id/confirm_account_space4"
-        android:layout_centerHorizontal="true"
         android:hint="@string/sign_up_confirm_code"
-        android:inputType="number" />
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/confirm_account_button"
+        android:layout_alignStart="@+id/confirm_account_button" />
 
     <Space
         android:id="@+id/confirm_account_space5"
@@ -95,13 +98,14 @@
         android:id="@+id/confirm_account_button"
         android:layout_width="300dp"
         android:layout_height="@dimen/user_pools_activity_button_height"
-        android:layout_below="@id/confirm_account_space5"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/redbutton"
         android:onClick="confirmAccount"
         android:text="@string/sign_up_confirm_text"
         android:textAllCaps="false"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/user_pools_activity_button_text_size"
-        android:textColor="@android:color/white"/>
+        android:layout_marginBottom="143dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

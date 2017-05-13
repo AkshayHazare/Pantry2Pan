@@ -7,26 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a51d025cda16c6e8246cb27e8952eb1e2e6ad4f8">
+        sha1="af2a5a632fdff62bfe0ae061107cb91316b78bd1">
         <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e014d5916b4bf3f75655a3e3d267f44deca57f7a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/akshay/Desktop/Pantry2Pan/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/akshay/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.4/1c295b462f16702ebe720bbb08f62e1ba80da41b/joda-time-2.9.4.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="02c1896ddaa3a0867da89632d3e4df5bb71424d4">
-        <dex dex="/Users/akshay/Desktop/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ebc63f8041818468ae03a0b2eab7422b0e39ddd9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/akshay/Desktop/Pantry2Pan/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/akshay/Desktop/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5a7144a3f821e947ccb94d5264e95fae84a00253/classes.dex" />
+        sha1="1c295b462f16702ebe720bbb08f62e1ba80da41b">
+        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.4_de16e2266ed1dc16be893528a1b9664f5b1c2174/classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -1,7 +1,5 @@
 package com.mysampleapp;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
 
@@ -24,7 +22,6 @@ public class RecipeHelper {
 
     //String url = ("http://api.yummly.com/v1/api/recipes?_app_id=6aa3b3c5&_app_key=98f091eede210875e3db43249b670de4");
     String url = ("http://yummly-env1.8ez2bxu5si.us-east-1.elasticbeanstalk.com/pull_recipes/?pantry_items=");
-    Drawable drawable;
     public ArrayList<Recipe> getRecipe(ArrayList<Data> listData)
     {
         //url += "&q=";
@@ -50,21 +47,19 @@ public class RecipeHelper {
             for (int i = 0; i < arr.length(); i++) {
                 JSONObject jsonPart =  arr.getJSONObject(i);
                 JSONObject jsonObject = new JSONObject(jsonPart.getString("_source"));
-                String url = (jsonObject.getString("smallImageUrls"));
-                String  newImageString = parseImage(url);
-                Bitmap bmp = BitmapFactory.decodeStream(new URL(newImageString).openConnection().getInputStream());
+                String url = parseImage(jsonObject.getString("smallImageUrls"));
 
-                if(bmp!=null){
+                if(url!=null){
                     Recipe recipeEntity = new Recipe();
                     recipeEntity.name = jsonObject.getString("recipeName");
                     recipeEntity.cook_time = jsonObject.getString("totalTimeInSeconds");
                     recipeEntity.cuisine = jsonObject.getString("cuisine");
                     recipeEntity.ingredients = parseIngredientsList(jsonObject.getString("ingredients")).toString();
-                    recipeEntity.sourceURL =  parseImage(jsonObject.getString("sourceURL")).toString();
-                    recipeEntity.image = bmp;
-                    recipeEntity.imageURL = parseImage(jsonObject.getString("smallImageUrls")).toString();
+                    recipeEntity.sourceURL =  parseImage(jsonObject.getString("sourceURL"));
+                    recipeEntity.imageURL = parseImage(jsonObject.getString("smallImageUrls"));
                     Log.i("JSONobj",recipeEntity.toString());
                     recipeData.add(recipeEntity);
+
                 }
             }
         }
