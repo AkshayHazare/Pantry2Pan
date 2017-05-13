@@ -1,71 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <LinearLayout
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:weightSum="100"
-        android:layout_below="@+id/editable_item"
-        android:id="@+id/linearLayout">
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="28dp"
-        app:srcCompat="@drawable/logo"
-        android:layout_below="@+id/linearLayout"
-        android:layout_toLeftOf="@+id/descriptionTextView"
-        android:layout_toStartOf="@+id/descriptionTextView"
-        android:layout_marginRight="18dp"
-        android:layout_marginEnd="18dp" />
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
 
     <TextView
-        android:id="@+id/nameTextView"
+        android:id="@+id/recipe_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="29dp"
-        android:layout_marginStart="29dp"
-        android:text="Food "
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_toRightOf="@+id/descriptionTextView"
-        android:layout_toEndOf="@+id/descriptionTextView"
-        android:layout_marginTop="16dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="38dp"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="12sp"
+        android:maxLines="4"
+        android:lines="4"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
 
     <TextView
-        android:id="@+id/cuisineTextView"
-        android:layout_width="wrap_content"
+        android:id="@+id/ingredients_list"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Cuisine"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_alignLeft="@+id/nameTextView"
-        android:layout_alignStart="@+id/nameTextView"
-        android:layout_marginBottom="15dp" />
-
-    <TextView
-        android:id="@+id/descriptionTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
-        android:text="Description"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true" />
+        android:hint="Ingredients"
+        android:lines="6"
+        android:maxLines="6"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/cooktimeTextView"
+        android:layout_alignLeft="@+id/cooktimeTextView"
+        android:layout_alignStart="@+id/cooktimeTextView" />
 
     <TextView
         android:id="@+id/cooktimeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/descriptionTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="CookTime" />
+        android:hint="Cook Time"
+        android:lineSpacingExtra="8sp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/cuisineTextView"
+        android:layout_alignLeft="@+id/cuisineTextView"
+        android:layout_alignStart="@+id/cuisineTextView"
+        android:layout_marginTop="11dp" />
 
+    <TextView
+        android:id="@+id/src_Url"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:ems="10"
+        android:hint="Source URL"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ingredients_list"
+        android:layout_alignLeft="@+id/ingredients_list"
+        android:layout_alignStart="@+id/ingredients_list" />
+
+    <ImageView
+        android:id="@+id/selectRecipeImage"
+        android:layout_width="200dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/nameTextView"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/cuisineTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:hint="Cuisine"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/selectRecipeImage"
+        android:layout_alignLeft="@+id/chosenRecipeBackButton"
+        android:layout_alignStart="@+id/chosenRecipeBackButton" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name of Recipe"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/chosenRecipeBackButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/chosenRecipeBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="@layout/redbutton"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_orange_light">
 
 
     <EditText
         android:id="@+id/editable_item"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark"
         android:ems="10"
-        android:hint="Item"
+        android:hint="Food Item"
         android:inputType="textPersonName"
-        android:textAlignment="center"
+
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/typeEditText"
-        android:layout_alignStart="@+id/typeEditText"
-        android:layout_alignRight="@+id/typeEditText"
-        android:layout_alignEnd="@+id/typeEditText" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+
     <EditText
         android:id="@+id/typeEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/editable_item"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
         android:ems="10"
         android:hint="Type"
-        android:inputType="textPersonName" />
+
+        android:inputType="textPersonName"
+        android:background="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/expiryEditText"
+        android:layout_alignLeft="@+id/expiryEditText"
+        android:layout_alignStart="@+id/expiryEditText"
+        android:layout_marginTop="35dp" />
 
     <EditText
         android:id="@+id/quantityEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/typeEditText"
-        android:layout_alignStart="@+id/typeEditText"
-        android:layout_below="@+id/typeEditText"
         android:ems="10"
         android:hint="Quantity"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+
+        android:background="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/editable_item"
+        android:layout_alignLeft="@+id/editable_item"
+        android:layout_alignStart="@+id/editable_item"
+        android:layout_marginTop="37dp" />
 
     <EditText
         android:id="@+id/expiryEditText"
@@ -50,48 +61,60 @@
         android:ems="10"
         android:hint="Expiry"
         android:inputType="textPersonName"
+        android:background="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
         android:layout_below="@+id/quantityEditText"
         android:layout_alignLeft="@+id/quantityEditText"
-        android:layout_alignStart="@+id/quantityEditText" />
+        android:layout_alignStart="@+id/quantityEditText"
+        android:layout_marginTop="37dp" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:weightSum="100"
-        android:layout_below="@+id/editable_item"
-        android:layout_centerHorizontal="true">
-
-
-    </LinearLayout>
 
     <Button
         android:id="@+id/btnView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/expiryEditText"
-        android:layout_marginTop="134dp"
-        android:layout_toEndOf="@+id/expiryEditText"
-        android:layout_toRightOf="@+id/expiryEditText"
-        android:text="View Data" />
+        android:layout_below="@+id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@layout/redbutton"
+        android:text="Pantry"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnView"
-        android:layout_alignBottom="@+id/btnView"
-        android:layout_toLeftOf="@+id/btnView"
-        android:layout_toStartOf="@+id/btnView"
-        android:text="SAVE" />
+        android:text="SAVE"
+        android:background="@layout/redbutton"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/typeEditText"
+        android:layout_alignRight="@+id/typeEditText"
+        android:layout_alignEnd="@+id/typeEditText" />
 
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:background="@layout/redbutton"
+        android:textColor="@android:color/white"
         android:layout_alignBaseline="@+id/btnSave"
         android:layout_alignBottom="@+id/btnSave"
-        android:layout_toLeftOf="@+id/btnSave"
-        android:layout_toStartOf="@+id/btnSave"
-        android:text="DELETE" />
+        android:layout_alignLeft="@+id/typeEditText"
+        android:layout_alignStart="@+id/typeEditText" />
+
+    <TextView
+        android:id="@+id/editTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Edit Item to Pantry:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
 
 </RelativeLayout>

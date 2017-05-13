@@ -19,15 +19,16 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 
-public class ListDataActivity extends AppCompatActivity {
+public class ListDataActivity extends AppCompatActivity  {
 
-    int[] IMAGES = {R.drawable.meat,R.drawable.fruits,R.drawable.dairy,R.drawable.vegetables,R.drawable.poultry,R.drawable.spices_condiments,R.drawable.empty};
+    int[] IMAGES = {R.drawable.meat,R.drawable.fruits,R.drawable.dairy,R.drawable.vegetables,
+            R.drawable.poultry,R.drawable.spices_condiments,R.drawable.empty};
 
     private static final String TAG = "ListDataActivity";
     public ArrayList<Data> listData;
     DatabaseHelper mDatabaseHelper;
     private ListView mListView;
-    private Button addButton;
+    private Button addButton,backbutton;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
 
@@ -36,9 +37,11 @@ public class ListDataActivity extends AppCompatActivity {
         mListView = (ListView) findViewById(R.id.pantryListView);
         mDatabaseHelper = new DatabaseHelper(this);
         addButton = (Button) findViewById(R.id.addButton);
+        backbutton = (Button) findViewById(R.id.pantrybackbutton);
 
         //get the data and append to a list
         listData = mDatabaseHelper.getData();
+
 
         Log.d(TAG, "populateListView: Displaying data in the ListView.");
         //create the list adapter and set the adapter
@@ -58,39 +61,55 @@ public class ListDataActivity extends AppCompatActivity {
                 Cursor data = mDatabaseHelper.getItemID(name);//get the id associated with that name
 
                 int itemID = -1;
-                while(data.moveToNext()){
+                while (data.moveToNext()) {
                     itemID = data.getInt(0);
                 }
 
-                if(itemID > -1){
+                if (itemID > -1) {
                     Log.d(TAG, "onItemClick: The ID is: " + itemID);
                     Intent editScreenIntent = new Intent(getApplicationContext(), EditDataActivity.class);
-                    editScreenIntent.putExtra("id",itemID);
-                    editScreenIntent.putExtra("name",name);
-                    editScreenIntent.putExtra("type",type);
-                    editScreenIntent.putExtra("quantity",quantity);
-                    editScreenIntent.putExtra("expiry",expiry);
+                    editScreenIntent.putExtra("id", itemID);
+                    editScreenIntent.putExtra("name", name);
+                    editScreenIntent.putExtra("type", type);
+                    editScreenIntent.putExtra("quantity", quantity);
+                    editScreenIntent.putExtra("expiry", expiry);
                     startActivity(editScreenIntent);
-                }
-                else{
+                } else {
                     toastMessage("No ID associated with that name");
                 }
             }
         });
 
         addButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), UserPantryActivity.class);
                 startActivity(intent);
             }
+
+
+        });
+        backbutton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), UserHomeActivity.class);
+                startActivity(intent);
+            }
+
+
         });
     }
-    private class CustomAdapter extends BaseAdapter {
+
+
+
+
+        private class CustomAdapter extends BaseAdapter {
 
         @Override
         public int getCount() {
-            return listData.size() ;
+            return listData.size();
         }
 
         @Override
@@ -106,63 +125,59 @@ public class ListDataActivity extends AppCompatActivity {
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
             view = null;
-            view = getLayoutInflater().inflate(R.layout.custom_layout,null);
+            view = getLayoutInflater().inflate(R.layout.custom_layout, null);
 
-            ImageView imageView=(ImageView)view.findViewById(R.id.imageView);
-            TextView nameView =(TextView) view.findViewById(R.id.nameView);
-            TextView typeView =(TextView) view.findViewById(R.id.typeView);
-            TextView quantityView =(TextView) view.findViewById(R.id.quantityView);
-            TextView expiryView =(TextView) view.findViewById(R.id.expiryView);
+            ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
+            TextView nameView = (TextView) view.findViewById(R.id.nameView);
+            TextView typeView = (TextView) view.findViewById(R.id.typeView);
+            TextView quantityView = (TextView) view.findViewById(R.id.quantityView);
+            TextView expiryView = (TextView) view.findViewById(R.id.expiryView);
 
             nameView.setText(listData.get(i).getName());
             typeView.setText(listData.get(i).getType());
             quantityView.setText(listData.get(i).getQuantity());
             expiryView.setText(listData.get(i).getExpiry());
 
-            int j=getImage(typeView.getText().toString().toLowerCase());
-            if(j!=0){
-                imageView.setImageResource(IMAGES[j-1]);
-            }
-            else {
+            int j = getImage(typeView.getText().toString().toLowerCase());
+            if (j != 0) {
+                imageView.setImageResource(IMAGES[j - 1]);
+            } else {
                 Log.d(TAG, "Not a Recognizable Type");
             }
             return view;
         }
     }
 
+
+
     private void toastMessage(String message){
         Toast.makeText(this,message, Toast.LENGTH_SHORT).show();
     }
 
-    public int getImage(String typeView){
+    public int getImage(String typeView) {
 
-        if(typeView.toLowerCase().equals("meat"))
-        {
+        if (typeView.toLowerCase().equals("meat")) {
             return 1;
         }
-        if(typeView.toLowerCase().equals("fruits"))
-        {
+        if (typeView.toLowerCase().equals("fruits")) {
             return 2;
         }
-        if(typeView.toLowerCase().equals("dairy"))
-        {
+        if (typeView.toLowerCase().equals("dairy")) {
             return 3;
         }
-        if(typeView.toLowerCase().equals("vegetables"))
-        {
+        if (typeView.toLowerCase().equals("vegetables")) {
             return 4;
         }
-        if(typeView.toLowerCase().equals("poultry"))
-        {
+        if (typeView.toLowerCase().equals("poultry")) {
             return 5;
         }
-        if(typeView.toLowerCase().equals("spices_condiments"))
-        {
+        if (typeView.toLowerCase().equals("spices_condiments")) {
             return 6;
-        }
-        else {
+        } else {
             return 7;
         }
     }
+
+
 
 }

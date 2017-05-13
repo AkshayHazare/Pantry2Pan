@@ -16,18 +16,24 @@
         tools:layout_editor_absoluteY="325dp"
         android:layout_marginBottom="40dp"
         android:layout_above="@+id/logoutbutton"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@layout/redbutton"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/recipeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What can I cook Today ?"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="412dp"
-        android:layout_marginBottom="13dp"
         android:layout_above="@+id/pantryButton"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:background="@layout/redbutton"
+        android:text="  What can I cook Today ?  "
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="412dp" />
 
     <Button
         android:id="@+id/logoutbutton"
@@ -37,6 +43,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/pantryButton"
         android:layout_marginBottom="56dp"
-        android:text="Log Out" />
+        android:text="Log Out"
+        android:background="@layout/redbutton"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

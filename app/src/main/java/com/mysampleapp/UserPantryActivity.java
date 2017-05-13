@@ -23,7 +23,9 @@ public class UserPantryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_add2_pantry);
         setTitle("Pantry2Pan");
         Log.i("Pantry Page", "Successfully loaded");
-        editText = (EditText) findViewById(R.id.editable_item);
+
+
+        editText = (EditText) findViewById(R.id.nameEditText);
         editText1 = (EditText) findViewById(R.id.typeEditText);
         editText2 = (EditText) findViewById(R.id.quantityEditText);
         editText3 = (EditText) findViewById(R.id.expiryEditText);

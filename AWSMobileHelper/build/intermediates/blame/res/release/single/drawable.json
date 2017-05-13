@@ -108,16 +108,16 @@
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/selector_button_login.xml",
-        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/src/main/res/drawable/selector_button_login.xml"
-    },
-    {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/redbutton.xml",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/src/main/res/drawable/redbutton.xml"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
@@ -134,6 +134,10 @@
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/logo.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/src/main/res/drawable/logo.png"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",

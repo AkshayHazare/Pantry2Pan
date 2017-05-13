@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="type_array">
+        <item>Meat</item>
+        <item>Dairy</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Condiments</item>
+        <item>Others</item>
+        <item>Seafood</item>
+        <item>Grains</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -128,7 +138,7 @@
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <color name="instructions_list_border_color">#FFDDDDDD</color>
-    <color name="main_background">#FFFFFF</color>
+    <color name="main_background">#ffffff</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -158,7 +168,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="sign_in_separator_color">#DDDDDD</color>
+    <color name="sign_in_separator_color">#dddddd</color>
     <color name="splash_background">#FFFFFF</color>
     <color name="splash_text">#F58535</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>

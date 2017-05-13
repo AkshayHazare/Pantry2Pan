@@ -1,4 +1,4 @@
-#Thu May 11 00:01:46 EDT 2017
+#Fri May 12 23:16:12 EDT 2017
 file.9=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_52dd06a7df79f7487983255bc4ac33eabec49f40/classes.dex
 base.10=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-cognito-2.4.2_efc3f09c24efee3c162fb9e486da7668aa264df2
 file.8=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_960b8ebee83c69ad07f4f33258be60f9bbe6301e/classes.dex

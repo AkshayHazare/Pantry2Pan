@@ -40,4 +40,15 @@
     <string name="identity_demo_error_dialog_title">Failed Identity Retrieval</string>
     <string name="identity_demo_error_message_failed_get_identity">Could not retrieve the user identity:\u0020</string>
 
+    <string-array name="type_array">
+        <item>Meat</item>
+        <item>Dairy</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Condiments</item>
+        <item>Others</item>
+        <item>Seafood</item>
+        <item>Grains</item>
+    </string-array>
+
 </resources>

@@ -1,108 +1,96 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signinRelativeLayout"
     android:layout_width="match_parent"
-    tools:context=".auth.signin.SignInActivity"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:elevation="1dp"
+    tools:context=".auth.signin.SignInActivity">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
+
+    <EditText
+        android:id="@+id/signIn_editText_email"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_centerVertical="true"
+        android:layout_above="@+id/signIn_editText_password"
+        android:layout_alignLeft="@+id/signIn_editText_password"
+        android:layout_alignStart="@+id/signIn_editText_password"
+        android:layout_marginBottom="12dp"
+        android:hint="Email or Username"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/signIn_editText_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signIn_textView_CreateNewAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/sign_in_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signIn_imageButton_login"
+        android:layout_width="@dimen/sign_in_button_width"
+        android:layout_height="@dimen/sign_in_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/redbutton"
+        android:text="Sign in Button"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/signIn_textView_CreateNewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signIn_imageButton_login"
+        android:layout_alignLeft="@+id/signIn_editText_password"
+        android:layout_alignStart="@+id/signIn_editText_password"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="@string/sign_in_new_account"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/signIn_textView_ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/signIn_editText_password"
+        android:layout_alignRight="@+id/signIn_editText_password"
+        android:layout_below="@+id/signIn_editText_password"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/sign_in_forgot_password"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/signIn_imageButton_login"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
         android:gravity="center"
-        >
-        <EditText
-            android:id="@+id/signIn_editText_email"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/sign_in_text_margin"
-            android:layout_marginRight="@dimen/sign_in_text_margin"
-            android:inputType="textEmailAddress"
-            android:hint="@string/sign_in_email"
-            />
-        <EditText
-            android:id="@+id/signIn_editText_password"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/sign_in_text_margin"
-            android:layout_marginRight="@dimen/sign_in_text_margin"
-            android:inputType="textPassword"
-            android:hint="@string/sign_in_password"
-            />
-        <ImageButton
-            android:id="@+id/signIn_imageButton_login"
-            android:layout_width="@dimen/sign_in_button_width"
-            android:layout_height="@dimen/sign_in_button_height"
-            android:src="@drawable/selector_button_login"
-            android:layout_margin="@dimen/sign_in_button_margin"
-            />
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp">
+        android:padding="20dp"
+        android:text="@string/sign_in_or"
+        android:textAppearance="?android:textAppearanceSmall" />
 
-            <TextView
-                android:id="@+id/signIn_textView_CreateNewAccount"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/sign_in_new_account"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:gravity="left"
-                android:layout_marginLeft="@dimen/sign_in_text_margin"
-                />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="18dp"
+        custom:srcCompat="@drawable/logo"
+        android:layout_above="@+id/signIn_editText_email"
+        android:layout_centerHorizontal="true" />
 
-            <TextView
-                android:id="@+id/signIn_textView_ForgotPassword"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/sign_in_forgot_password"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:gravity="right"
-                android:layout_marginRight="@dimen/sign_in_text_margin"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal">
-
-            <View
-                android:layout_width="100dp"
-                android:layout_height="@dimen/sign_in_separator_height"
-                android:background="@color/sign_in_separator_color"
-                android:padding="5dp"
-                android:layout_gravity="left|center_vertical"
-                android:gravity="center_vertical"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:text="@string/sign_in_or"
-                android:padding="20dp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                />
-
-            <View
-                android:layout_width="100dp"
-                android:layout_height="@dimen/sign_in_separator_height"
-                android:background="@color/sign_in_separator_color"
-                android:padding="5dp"
-                android:layout_gravity="right|center_vertical"
-                android:gravity="center_vertical"
-                />
-
-        </LinearLayout>
-    </LinearLayout>
 </RelativeLayout>
+
+

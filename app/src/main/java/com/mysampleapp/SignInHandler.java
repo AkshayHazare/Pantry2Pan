@@ -31,7 +31,6 @@ public class SignInHandler extends DefaultSignInResultHandler {
                 callingActivity.getString(R.string.sign_in_succeeded_message_format),
                 provider.getDisplayName()), Toast.LENGTH_LONG).show();
         }
-
         goMain(callingActivity);
     }
 

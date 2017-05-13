@@ -69,6 +69,7 @@ public class UserHomeActivity extends AppCompatActivity implements View.OnClickL
         logOutButton.setOnClickListener(this);
         Log.d(TAG, "logoutbutton was clicked");
 
+
     }
 
 

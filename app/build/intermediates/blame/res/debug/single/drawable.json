@@ -36,10 +36,6 @@
         "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/poultry.jpg"
     },
     {
-        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/background.jpg",
-        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/background.jpg"
-    },
-    {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -100,12 +96,12 @@
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/empty.png",
-        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/empty.png"
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/redbutton.xml",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/res/drawable/redbutton.xml"
     },
     {
-        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/selector_button_login.xml",
-        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/bundles/default/res/drawable/selector_button_login.xml"
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/empty.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/empty.png"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -114,6 +110,10 @@
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/background.jpeg",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/src/main/res/drawable/background.jpeg"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",

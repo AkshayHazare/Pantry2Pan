@@ -60,8 +60,8 @@
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/debug/drawable/selector_button_login.xml",
-        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/src/main/res/drawable/selector_button_login.xml"
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/src/main/res/drawable/logo.png"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
@@ -102,6 +102,10 @@
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
         "source": "/Users/akshay/.android/build-cache/b30f2e03444ae4322d3b14a13a383c8d6b88291e/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/debug/drawable/redbutton.xml",
+        "source": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/src/main/res/drawable/redbutton.xml"
     },
     {
         "merged": "/Users/akshay/Desktop/GitHub/Pantry2Pan/AWSMobileHelper/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
