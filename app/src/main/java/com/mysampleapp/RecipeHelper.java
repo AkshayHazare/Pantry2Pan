@@ -62,6 +62,7 @@ public class RecipeHelper {
                     recipeEntity.ingredients = parseIngredientsList(jsonObject.getString("ingredients")).toString();
                     recipeEntity.sourceURL =  parseImage(jsonObject.getString("sourceURL")).toString();
                     recipeEntity.image = bmp;
+                    recipeEntity.imageURL = parseImage(jsonObject.getString("smallImageUrls")).toString();
                     Log.i("JSONobj",recipeEntity.toString());
                     recipeData.add(recipeEntity);
                 }

@@ -2,6 +2,8 @@ package com.mysampleapp;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +18,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 
 
@@ -29,6 +34,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
     RecipeHelper recipeHelper = new RecipeHelper();
     private ListView recipeListView;
     Button backButton;
+    ImageView image;
 
     @Override
     protected void onCreate( Bundle savedInstanceState) {
@@ -52,8 +58,8 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
         CustomAdapter customadapter = new CustomAdapter();
         recipeListView.setAdapter(customadapter);
 
-        Button backbutton = (Button) findViewById(R.id.backbuttonrecipe);
-        backbutton.setOnClickListener(this);
+        backButton = (Button) findViewById(R.id.backbuttonrecipe);
+        backButton.setOnClickListener(this);
 
 
         //set an onItemClickListener to the ListView
@@ -91,7 +97,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
 
 
                 String sourceURL = recipeData.get(i).getSourceURL();
-                Bitmap image = recipeData.get(i).getImage();
+                String image = recipeData.get(i).getImageURL();
                 String cuisine = recipeData.get(i).getCuisine();
 
                 Log.d(TAG, "onItemClick: You Clicked on " + name);
@@ -103,6 +109,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                 editScreenIntent.putExtra("sourceURL", sourceURL);
                 editScreenIntent.putExtra("smallImageUrls",image);
                 editScreenIntent.putExtra("cuisine", cuisine);
+
                 startActivity(editScreenIntent);
 
             }
@@ -140,7 +147,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
         public View getView(int i, View view, ViewGroup viewGroup) {
             view = getLayoutInflater().inflate(R.layout.recipe_custom_layout, null);
 
-            ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
+            image = (ImageView) view.findViewById(R.id.imageView);
             TextView nameView = (TextView) view.findViewById(R.id.nameView);
             TextView cooktimeView = (TextView) view.findViewById(R.id.cooktimeView);
             Bitmap bitmap=recipeData.get(i).getImage();
@@ -149,8 +156,11 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                 Log.i("Image",recipeData.get(i).getImage().toString());
 
                 nameView.setText(recipeData.get(i).getName());
+
                 cooktimeView.setText("");
+
                 int time=new Integer(recipeData.get(i).getCook_time());
+
                 if (time <= 0 ) {
                     cooktimeView.setText(cooktimeView.getText() + "Not specified");
                 } else {
@@ -174,8 +184,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                     }
                 }
 
-                imageView.setImageBitmap(bitmap);
-                Log.i("Image",recipeData.get(i).getImage().toString());
+
             }
             catch (Exception e){};
             return view;
@@ -183,6 +192,38 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
     }
     private void toastMessage(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    }
+
+    private class GetImage extends AsyncTask<String, Void, Bitmap> {
+
+        @Override
+        protected Bitmap doInBackground(String... strings) {
+            Bitmap bitmap=null;
+            String imageURL = strings[0];
+
+            Log.i("imgURL: ", imageURL);
+
+            try{
+
+                InputStream input = new java.net.URL(imageURL).openStream();
+
+                bitmap = BitmapFactory.decodeStream(input);
+
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
+            return bitmap;
+        }
+
+        @Override
+        protected void onPostExecute(Bitmap result){
+            image.setImageBitmap(result);
+
+        }
     }
 
 

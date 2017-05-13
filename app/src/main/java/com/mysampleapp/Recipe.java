@@ -10,6 +10,7 @@ public class Recipe {
     public String cook_time;
     public String sourceURL;
     public String cuisine;
+    public String imageURL;
 
     public String getName(){
         return name;
@@ -33,6 +34,9 @@ public class Recipe {
 
     public String getCuisine(){
         return cuisine;
+    }
+    public String getImageURL(){
+        return imageURL;
     }
 
 
