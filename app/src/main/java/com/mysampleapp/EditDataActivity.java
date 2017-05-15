@@ -9,6 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.amazonaws.auth.CognitoCachingCredentialsProvider;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserPool;
+import com.amazonaws.regions.Regions;
+
 public class EditDataActivity extends AppCompatActivity {
 
     private static final String TAG = "EditDataActivity";
@@ -26,6 +31,26 @@ public class EditDataActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        CognitoCachingCredentialsProvider credentials = new CognitoCachingCredentialsProvider(
+                getApplicationContext(),
+                "040667233965",
+                "Cognito_TestDynamo",
+                //"us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoUnauth_Role",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoAuth_Role",
+                Regions.US_EAST_1
+                //"1olub3i713t45k3ot6hptvnj5m",
+                //"124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUserPool userPool = new CognitoUserPool(getApplicationContext(),
+                "us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "1olub3i713t45k3ot6hptvnj5m",
+                "124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUser user = userPool.getCurrentUser();
+        final String userId = user.getUserId();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_editpantry);
         btnSave = (Button) findViewById(R.id.btnSave);

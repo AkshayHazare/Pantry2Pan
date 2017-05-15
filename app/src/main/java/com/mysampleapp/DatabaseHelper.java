@@ -13,12 +13,13 @@ import java.util.ArrayList;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String TAG = "DatabaseHelper";
-    private static final String TABLE_NAME = "pantry_table";
+    private static final String TABLE_NAME = "Pantry";
     private static final String COL0 = "ID";
     private static final String COL1 = "name";
     private static final String COL2 = "type";
     private static final String COL3 = "quantity";
     private static final String COL4 = "expiry";
+    private static final String COL5 = "userID";
     final ArrayList<Data> listData = new ArrayList<>();
 
     public DatabaseHelper(Context context) {
@@ -28,7 +29,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String createTable = "CREATE TABLE " + TABLE_NAME + "(" + COL0 + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + COL1 + " TEXT, " + COL2 +" TEXT, " + COL3 +" TEXT, " + COL4 + " TEXT " + ")";
+                + COL1 + " TEXT, " + COL2 +" TEXT, " + COL3 +" TEXT, " + COL4 + " TEXT, " + COL5 + " TEXT " + ")";
         db.execSQL(createTable);
     }
 
@@ -38,7 +39,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean addData(String item, String type, String quantity, String expiry) {
+    public boolean addData(String item, String type, String quantity, String expiry, String userID) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL1, item);
@@ -83,7 +84,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "UPDATE " + TABLE_NAME + " SET " + COL1 +
                 " = '" + newName + "' WHERE " + COL0 + " = '" + id + "'" +
-                " AND " + COL1 + " = '" + oldName + "'";
+                " AND " + COL1 + " = '" + oldName +"'";
         Log.d(TAG, "updateName: query: " + query);
         Log.d(TAG, "updateName: Setting name to " + newName);
         db.execSQL(query);

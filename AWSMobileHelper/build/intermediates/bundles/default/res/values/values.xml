@@ -43,7 +43,7 @@
     <string name="sign_in_or">or sign in with</string>
     <string name="sign_in_password">Password</string>
     <string name="sign_in_succeeded_message_format">"Sign-in with %s succeeded."</string>
-    <string name="sign_in_username">Username/Phone Number (+15551234567)</string>
+    <string name="sign_in_username">Username or Email</string>
     <string name="sign_up_confirm_code">Confirmation code</string>
     <string name="sign_up_confirm_code_sent">A confirmation code was sent.</string>
     <string name="sign_up_confirm_enter_code">Please enter the code below to confirm your account.</string>

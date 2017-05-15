@@ -7,7 +7,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -16,7 +15,6 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
-import java.net.URL;
 
 public class UserChosenRecipeActivity extends AppCompatActivity implements View.OnClickListener{
     private Button backbutton;
@@ -36,12 +34,12 @@ public class UserChosenRecipeActivity extends AppCompatActivity implements View.
         String srcUrl = receivedIntent.getStringExtra("sourceURL");
         image = receivedIntent.getStringExtra("smallImageUrls");
         String cookTime = receivedIntent.getStringExtra("cookTime");
-        //Log.i("img: ",image);
 
         final TextView recipeTitle = (TextView) findViewById(R.id.nameTextView);
         final TextView ingredientString = (TextView) findViewById(R.id.ingredients_list);
         final TextView cookingTime = (TextView) findViewById(R.id.cooktimeTextView);
         final TextView recipeLink = (TextView) findViewById(R.id.src_Url);
+
         imageView = (ImageView) findViewById(R.id.selectRecipeImage);
         final TextView cuis = (TextView) findViewById(R.id.cuisineTextView);
         String[] ingredient_list = str_ingredients.split(",");
@@ -102,7 +100,6 @@ public class UserChosenRecipeActivity extends AppCompatActivity implements View.
             Bitmap bitmap=null;
             String imageURL = strings[0];
 
-          //  Log.i("imgURL: ", imageURL);
 
             try{
 

@@ -19,7 +19,8 @@
         android:background="@android:color/transparent"
         android:text="Name"
         android:textColor="@android:color/black"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textSize="14dp"/>
 
     <TextView
         android:id="@+id/cooktimeView"
@@ -31,12 +32,13 @@
         android:layout_marginBottom="14dp"
         android:text="Cook Time"
         android:textColor="@android:color/black"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textSize="14dp"/>
 
     <ImageView
         android:id="@+id/recipeimageView"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/nameView"

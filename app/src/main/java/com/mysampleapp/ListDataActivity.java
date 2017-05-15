@@ -16,6 +16,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.amazonaws.auth.CognitoCachingCredentialsProvider;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserPool;
+import com.amazonaws.regions.Regions;
+
 import org.joda.time.DateTime;
 
 import java.text.DateFormat;
@@ -32,7 +37,7 @@ import static org.joda.time.Days.daysBetween;
 public class ListDataActivity extends AppCompatActivity  {
 
     int[] IMAGES = {R.drawable.meat,R.drawable.fruits,R.drawable.dairy,R.drawable.vegetables,
-            R.drawable.poultry,R.drawable.spices_condiments,R.drawable.fish,R.drawable.milk,R.drawable.grains,R.drawable.empty};
+            R.drawable.poultry,R.drawable.spices_condiments,R.drawable.fish,R.drawable.milk,R.drawable.grains,R.drawable.bread,R.drawable.empty};
 
     private static final String TAG = "ListDataActivity";
     public ArrayList<Data> listData;
@@ -43,6 +48,26 @@ public class ListDataActivity extends AppCompatActivity  {
     DateTime jd = new DateTime(d);
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        CognitoCachingCredentialsProvider credentials = new CognitoCachingCredentialsProvider(
+                getApplicationContext(),
+                "040667233965",
+                "Cognito_TestDynamo",
+                //"us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoUnauth_Role",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoAuth_Role",
+                Regions.US_EAST_1
+                //"1olub3i713t45k3ot6hptvnj5m",
+                //"124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUserPool userPool = new CognitoUserPool(getApplicationContext(),
+                "us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "1olub3i713t45k3ot6hptvnj5m",
+                "124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUser user = userPool.getCurrentUser();
+        final String userId = user.getUserId();
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_pantry);
@@ -213,13 +238,11 @@ public class ListDataActivity extends AppCompatActivity  {
         if (typeView.toLowerCase().equals("grains")) {
             return 9;
         }
-        else {
+        if (typeView.toLowerCase().equals("bread")){
             return 10;
         }
+        else {
+            return 11;
+        }
     }
-
-
-
-
-
 }

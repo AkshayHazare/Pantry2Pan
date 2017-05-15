@@ -16,8 +16,14 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.amazonaws.auth.CognitoCachingCredentialsProvider;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserPool;
+import com.amazonaws.regions.Regions;
+import com.squareup.picasso.Picasso;
+
 import java.io.IOException;
-import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 
 
@@ -31,7 +37,7 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
     RecipeHelper recipeHelper = new RecipeHelper();
     private ListView recipeListView;
     Button backButton;
-    ImageView image;
+    String image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +46,26 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
         setContentView(R.layout.activity_user_recipe);
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
+        CognitoCachingCredentialsProvider credentials = new CognitoCachingCredentialsProvider(
+                getApplicationContext(),
+                "040667233965",
+                "Cognito_TestDynamo",
+                //"us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoUnauth_Role",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoAuth_Role",
+                Regions.US_EAST_1
+                //"1olub3i713t45k3ot6hptvnj5m",
+                //"124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUserPool userPool = new CognitoUserPool(getApplicationContext(),
+                "us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "1olub3i713t45k3ot6hptvnj5m",
+                "124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUser user = userPool.getCurrentUser();
+        final String userId = user.getUserId();
 
         recipeListView = (ListView) findViewById(R.id.recipeListView);
 
@@ -175,19 +201,24 @@ public class UserRecipeActivity extends AppCompatActivity implements View.OnClic
                         cooktimeView.setText(cooktimeView.getText() + " " + secString + " seconds");
                     }
                 }
-                imageView.setImageBitmap(getBitmap(recipeData.get(i).getImageURL()));
+                String imgurl = parseImage(recipeData.get(i).getImageURL());
+                Picasso.with(getApplicationContext()).load(imgurl).into(imageView);
+              // getBitmap(imageView,image);
             }
             catch (Exception e){}
             return view;
         }
     }
-    public Bitmap getBitmap(String url) throws IOException {
+    public void getBitmap(ImageView image,String url) throws IOException {
         String img = parseImage(url);
-
-        InputStream input = new java.net.URL(img).openStream();
-        Bitmap bitmap = BitmapFactory.decodeStream(input);
-        Log.i("URL is ", String.valueOf(bitmap));
-        return (bitmap);
+        Bitmap bitmap;
+        try {
+            URL newurl = new URL(parseImage(url));
+            bitmap = BitmapFactory.decodeStream(newurl.openConnection().getInputStream());
+            image.setImageBitmap(bitmap);
+            Log.i("URL is ", String.valueOf(bitmap));
+        }
+        catch (Exception e){}
     }
 
 

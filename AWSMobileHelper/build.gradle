@@ -7,7 +7,7 @@
 // Source code generated from template: aws-my-sample-app-android v0.17
 //
 
-apply plugin: 'com.android.library'
+apply plugin:'com.android.library'
 
 android {
     compileSdkVersion 24

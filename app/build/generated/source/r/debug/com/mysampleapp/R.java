@@ -2271,19 +2271,20 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f02004e;
         public static final int abc_vector_test=0x7f02004f;
         public static final int background=0x7f020050;
-        public static final int dairy=0x7f020051;
-        public static final int empty=0x7f020052;
-        public static final int fish=0x7f020053;
-        public static final int fruits=0x7f020054;
-        public static final int grains=0x7f020055;
-        public static final int logo=0x7f020056;
-        public static final int meat=0x7f020057;
-        public static final int milk=0x7f020058;
-        public static final int notification_template_icon_bg=0x7f02005d;
-        public static final int poultry=0x7f020059;
-        public static final int redbutton=0x7f02005a;
-        public static final int spices_condiments=0x7f02005b;
-        public static final int vegetables=0x7f02005c;
+        public static final int bread=0x7f020051;
+        public static final int dairy=0x7f020052;
+        public static final int empty=0x7f020053;
+        public static final int fish=0x7f020054;
+        public static final int fruits=0x7f020055;
+        public static final int grains=0x7f020056;
+        public static final int logo=0x7f020057;
+        public static final int meat=0x7f020058;
+        public static final int milk=0x7f020059;
+        public static final int notification_template_icon_bg=0x7f02005e;
+        public static final int poultry=0x7f02005a;
+        public static final int redbutton=0x7f02005b;
+        public static final int spices_condiments=0x7f02005c;
+        public static final int vegetables=0x7f02005d;
     }
     public static final class id {
         public static final int action0=0x7f0c00b4;
@@ -2434,8 +2435,8 @@ containing a value of this type.
         public static final int showTitle=0x7f0c001a;
         public static final int signIn_editText_email=0x7f0c0070;
         public static final int signIn_editText_password=0x7f0c0071;
-        public static final int signIn_imageButton_login=0x7f0c0073;
-        public static final int signIn_textView_CreateNewAccount=0x7f0c0072;
+        public static final int signIn_imageButton_login=0x7f0c0072;
+        public static final int signIn_textView_CreateNewAccount=0x7f0c0073;
         public static final int signIn_textView_ForgotPassword=0x7f0c0074;
         public static final int signinRelativeLayout=0x7f0c006f;
         public static final int signupLayout=0x7f0c007f;
@@ -2664,8 +2665,6 @@ containing a value of this type.
         public static final int AlertDialog_AppCompat_Light=0x7f08008b;
         public static final int Animation_AppCompat_Dialog=0x7f08008c;
         public static final int Animation_AppCompat_DropDownUp=0x7f08008d;
-        /**  Customize your theme here. 
-         */
         public static final int AppTheme=0x7f08008e;
         public static final int Base_AlertDialog_AppCompat=0x7f08008f;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f080090;

@@ -7,8 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="af2a5a632fdff62bfe0ae061107cb91316b78bd1">
+        sha1="a47ef3cc26f8f67d1449c8bd00e351903048c472">
         <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e014d5916b4bf3f75655a3e3d267f44deca57f7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akshay/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_9aa701612b56b470989e3697afa91f317763bd39/classes.dex" />
     </item>
     <item
         is-multidex="true"

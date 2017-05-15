@@ -514,9 +514,9 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f02004d;
         public static final int abc_textfield_search_material = 0x7f02004e;
         public static final int abc_vector_test = 0x7f02004f;
-        public static final int logo = 0x7f020056;
-        public static final int notification_template_icon_bg = 0x7f02005d;
-        public static final int redbutton = 0x7f02005a;
+        public static final int logo = 0x7f020057;
+        public static final int notification_template_icon_bg = 0x7f02005e;
+        public static final int redbutton = 0x7f02005b;
     }
     public static final class id {
         public static final int action0 = 0x7f0c00b4;
@@ -626,8 +626,8 @@ public final class R {
         public static final int showTitle = 0x7f0c001a;
         public static final int signIn_editText_email = 0x7f0c0070;
         public static final int signIn_editText_password = 0x7f0c0071;
-        public static final int signIn_imageButton_login = 0x7f0c0073;
-        public static final int signIn_textView_CreateNewAccount = 0x7f0c0072;
+        public static final int signIn_imageButton_login = 0x7f0c0072;
+        public static final int signIn_textView_CreateNewAccount = 0x7f0c0073;
         public static final int signIn_textView_ForgotPassword = 0x7f0c0074;
         public static final int signinRelativeLayout = 0x7f0c006f;
         public static final int signupLayout = 0x7f0c007f;

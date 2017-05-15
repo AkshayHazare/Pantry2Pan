@@ -1,4 +1,4 @@
-#Sat May 13 16:22:37 EDT 2017
+#Sat May 13 19:34:20 EDT 2017
 base.0=/Users/akshay/Desktop/GitHub/Pantry2Pan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4d2394ab13aa3f80615a0f0adb7e16f0b54ee0f5
 renamed.1=classes.dex
 renamed.0=classes2.dex

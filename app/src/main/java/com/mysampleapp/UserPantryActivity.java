@@ -9,6 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.amazonaws.auth.CognitoCachingCredentialsProvider;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
+import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserPool;
+import com.amazonaws.regions.Regions;
+
 public class UserPantryActivity extends AppCompatActivity {
 
     private static final String TAG = "UserPantryActivity";
@@ -23,6 +28,26 @@ public class UserPantryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_add2_pantry);
         setTitle("Pantry2Pan");
         Log.i("Pantry Page", "Successfully loaded");
+        CognitoCachingCredentialsProvider credentials = new CognitoCachingCredentialsProvider(
+                getApplicationContext(),
+                "040667233965",
+                "Cognito_TestDynamo",
+                //"us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoUnauth_Role",
+                "arn:aws:iam::040667233965:role/Cognito_testDynamoAuth_Role",
+                Regions.US_EAST_1
+                //"1olub3i713t45k3ot6hptvnj5m",
+                //"124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUserPool userPool = new CognitoUserPool(getApplicationContext(),
+                "us-east-1:314e3462-971d-459c-bd79-edbb6838933c",
+                "1olub3i713t45k3ot6hptvnj5m",
+                "124um0osvif397qh81k78ajhhiqsffo123dr14rsh0nli2kkffuo"
+        );
+
+        CognitoUser user = userPool.getCurrentUser();
+        final String userId = user.getUserId();
 
 
         editText = (EditText) findViewById(R.id.nameEditText);
@@ -31,6 +56,7 @@ public class UserPantryActivity extends AppCompatActivity {
         editText3 = (EditText) findViewById(R.id.expiryEditText);
         btnAdd = (Button) findViewById(R.id.btnAdd);
         btnViewData = (Button) findViewById(R.id.btnView);
+
         mDatabaseHelper = new DatabaseHelper(this);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +67,7 @@ public class UserPantryActivity extends AppCompatActivity {
                 String newQuantity = editText2.getText().toString();
                 String newExpiry = editText3.getText().toString();
                 if (editText.length() != 0 && editText1.length() !=0 && editText2.length() !=0 && editText3.length() !=0) {
-                    AddData(newItem,newType,newQuantity,newExpiry);
+                    AddData(newItem,newType,newQuantity,newExpiry,userId);
                     editText.setText("");
                     editText1.setText("");
                     editText2.setText("");
@@ -61,9 +87,9 @@ public class UserPantryActivity extends AppCompatActivity {
         });
     }
 
-    public void AddData(String newItem, String newType, String newQuantity, String newExpiry) {
+    public void AddData(String newItem, String newType, String newQuantity, String newExpiry, String userId) {
         Log.i(TAG, "addData: Adding " + newItem + newType + newQuantity + newExpiry +" to Database");
-        boolean insertData = mDatabaseHelper.addData(newItem,newType,newQuantity,newExpiry);
+        boolean insertData = mDatabaseHelper.addData(newItem,newType,newQuantity,newExpiry,userId);
 
         if (insertData) {
             toastMessage("Data Successfully Inserted!");

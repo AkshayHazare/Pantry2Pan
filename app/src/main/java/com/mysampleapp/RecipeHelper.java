@@ -21,7 +21,8 @@ public class RecipeHelper {
     ArrayList<Recipe> recipe = new ArrayList<>();
 
     //String url = ("http://api.yummly.com/v1/api/recipes?_app_id=6aa3b3c5&_app_key=98f091eede210875e3db43249b670de4");
-    String url = ("http://yummly-env1.8ez2bxu5si.us-east-1.elasticbeanstalk.com/pull_recipes/?pantry_items=");
+    String url = ("http://recipe-api-env.xcbhepkmdp.us-east-1.elasticbeanstalk.com/pull_recipes/?pantry_items=");
+
     public ArrayList<Recipe> getRecipe(ArrayList<Data> listData)
     {
         //url += "&q=";
@@ -47,6 +48,7 @@ public class RecipeHelper {
             for (int i = 0; i < arr.length(); i++) {
                 JSONObject jsonPart =  arr.getJSONObject(i);
                 JSONObject jsonObject = new JSONObject(jsonPart.getString("_source"));
+                //Log.i("json",jsonPart.toString());
                 String url = parseImage(jsonObject.getString("smallImageUrls"));
 
                 if(url!=null){

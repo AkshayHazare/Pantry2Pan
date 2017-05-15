@@ -1914,8 +1914,8 @@ containing a value of this type.
         public static int showTitle=0x7f0a0011;
         public static int signIn_editText_email=0x7f0a0067;
         public static int signIn_editText_password=0x7f0a0068;
-        public static int signIn_imageButton_login=0x7f0a006a;
-        public static int signIn_textView_CreateNewAccount=0x7f0a0069;
+        public static int signIn_imageButton_login=0x7f0a0069;
+        public static int signIn_textView_CreateNewAccount=0x7f0a006a;
         public static int signIn_textView_ForgotPassword=0x7f0a006b;
         public static int signinRelativeLayout=0x7f0a0066;
         public static int signupLayout=0x7f0a0076;
